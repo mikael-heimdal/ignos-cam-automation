@@ -1,0 +1,27 @@
+{
+  "base_url": "https://YOUR-IGNOS-SERVER",
+
+  "token_environment": "IGNOS_API_TOKEN",
+
+  "poll_interval_seconds": 60,
+
+  "request_timeout_seconds": 30,
+
+  "parts_list_path": "/cncsetup/parts/list",
+
+  "part_detail_path": "/cncsetup/parts/{id}",
+
+  "parts_list_body": {},
+
+  "response_items_path": "",
+
+  "fetch_part_details": true,
+
+  "default_machine_group": "Milling",
+
+  "output_directory": "output/parts",
+
+  "state_file": "state/seen_parts.json",
+
+  "log_level": "INFO"
+}
