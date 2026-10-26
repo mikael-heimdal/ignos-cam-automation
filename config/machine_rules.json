@@ -1,0 +1,23 @@
+{
+  "milling": {
+    "machines": [
+      "DMU50",
+      "DMU65",
+      "DMU85",
+      "DMU100"
+    ]
+  },
+
+  "turning": {
+    "machines": [
+      "ST30",
+      "QuickTurn"
+    ]
+  },
+
+  "millturn": {
+    "machines": [
+      "Integrex"
+    ]
+  }
+}
