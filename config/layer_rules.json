@@ -1,0 +1,54 @@
+{
+  "milling": {
+    "top_layers": [
+      "1.Part_%PARTNAME%",
+      "2.Fasdel_Model_0",
+      "3.Turning Part_Model_0",
+      "4.Ämne"
+    ],
+
+    "stock_layers": [
+      "Ämne",
+      "Ämne Efter Drej",
+      "Ämne Efter Prepp",
+      "Ämne Extra",
+      "Ämne Större",
+      "Ämne Stötte"
+    ],
+
+    "operations": {
+      "count": 10,
+
+      "structure": [
+        "Contours",
+        "Boundaries",
+        "ISO Surfaces",
+        "Surfaces",
+        "Stop Surfaces",
+        "Mirrors",
+        "Blåsarn Lines"
+      ]
+    }
+  },
+
+  "turning": {
+    "top_layers": [
+      "1.Part_%PARTNAME%",
+      "2.Turning_Model_0",
+      "3.Finished_Model_0"
+    ],
+
+    "operations": {
+      "count": 10,
+
+      "structure": [
+        "Contours",
+        "Boundaries",
+        "Drive Curves",
+        "Surfaces",
+        "Stop Surfaces",
+        "Reference Lines"
+      ]
+    }
+  }
+}
